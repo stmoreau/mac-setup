@@ -1,0 +1,98 @@
+{
+  "explorer.openEditors.visible": 0,
+  "editor.snippetSuggestions": "top",
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Just Black",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Anonymous Pro",
+  "terminal.integrated.fontSize": 14,
+  "editor.fontSize": 16,
+  "markdown.preview.fontSize": 36,
+  "files.autoSave": "off",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorCustomizations": {
+    "[Just Black]": {
+      "sideBar.foreground": "#29b3b1",
+      "gitDecoration.modifiedResourceForeground": "#00AA00"
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["keyword.operator.logical"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["keyword.operator.logical"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      },
+      {
+        "scope": ["keyword.operator.logical"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["keyword.operator.logical"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
+  },
+  "window.zoomLevel": 1,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false
+  }
+}

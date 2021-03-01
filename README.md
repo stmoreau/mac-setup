@@ -1,6 +1,8 @@
 ## Mac apps
 
 - [iTem2](https://iterm2.com/)
+  - [Commands](./commands.sh)
+  - [Bash profile](./.bash_profile)
 - [Chrome](https://www.google.com/chrome/)
 - [Mongodb Compass](https://www.mongodb.com/products/compass)
 - [Insomnia](https://insomnia.rest/download/)

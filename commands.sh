@@ -2,7 +2,7 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update
 brew install --cask iterm2
-# update iterm2 settings -> colors, keep directory open new shell, keyboard shortcuts
+# update iterm2 settings -> colors, keep directory open new shell, keyboard shortcuts, keys presets Natural Text Editting 
 brew install bash # latest version of bash
 # set brew bash as default shell
 brew install fortune

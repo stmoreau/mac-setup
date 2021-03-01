@@ -51,5 +51,6 @@
 - [SVN](https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm)
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 
-### Settings
-[settings.json](./vsc/settings.json)
+### Settings
+
+- [settings.json](./vsc/settings.json)

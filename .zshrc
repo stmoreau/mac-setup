@@ -1,3 +1,6 @@
+# zsh plugin manager
+source ~/antigen.zsh
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -20,6 +23,13 @@ HIST_STAMPS="dd/mm/yyyy"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source ~/antigen.zsh
+
+# zsh plugins
+antigen use oh-my-zsh
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen apply
 
 # User configuration
 

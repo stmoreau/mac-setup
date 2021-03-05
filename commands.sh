@@ -3,13 +3,17 @@ xcode-select --install
 brew update
 brew install --cask iterm2
 # update iterm2 settings -> colors, keep directory open new shell, keyboard shortcuts, keys presets Natural Text Editting 
-brew install bash # latest version of bash
-# set brew bash as default shell
+
+# If going for zsh
+brew install zsh # if zsh is not installed
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # https://ohmyz.sh/
+# Theme: https://github.com/romkatv/powerlevel10k
+
 brew install fortune
 brew install cowsay 
 brew install git
 brew install vcprompt
-# update bash_profile
+# update .zshrc
 brew install --cask spectacle
 brew install --cask alfred
 # set CMD+space to launch alfred
